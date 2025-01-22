@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace BF2302_Team3_Project
 {
-    public partial class Investmentplanning : System.Web.UI.Page
+    public partial class Site1 : System.Web.UI.MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {

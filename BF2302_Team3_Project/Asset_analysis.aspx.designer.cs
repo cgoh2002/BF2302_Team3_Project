@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace BF2302_Team3_Project
+namespace BF2302_Team3_Project.Asset_analysis
 {
 
 
-    public partial class Index
+    public partial class aspx
     {
     }
 }
