@@ -6,6 +6,7 @@
              <a href="home.aspx" class="logo d-flex align-items-center">
                  <h1 class="sitename">United Together</h1>
              </a>
+
              <nav id="navmenu" class="navmenu">
                  <ul>
                      <li><a href="home.aspx">Home</a></li>
