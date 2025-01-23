@@ -256,10 +256,10 @@ namespace BF2302_Team3_Project
 
             using (SqlConnection con = new SqlConnection(connectionString))
             {
-                string query = "DELETE FROM Risk_Assessment WHERE Id=@Riskid";
+                string query = "DELETE FROM Risk_Assessment WHERE Riskid=@Riskid";
                 using (SqlCommand cmd = new SqlCommand(query, con))
                 {
-                    cmd.Parameters.AddWithValue("@Id", id);
+                    cmd.Parameters.AddWithValue("@Riskid", id);
 
                     con.Open();
                     cmd.ExecuteNonQuery();
