@@ -226,7 +226,7 @@ namespace BF2302_Team3_Project
 
             using (SqlConnection con = new SqlConnection(connectionString))
             {
-                string query = "UPDATE Risk_Assessment SET AssetName=@AssetName, RiskScore=@RiskScore, RiskLevel=@RiskLevel WHERE Id=@Riskid";
+                string query = "UPDATE Risk_Assessment SET AssetName=@AssetName, RiskScore=@RiskScore, RiskLevel=@RiskLevel WHERE Riskid=@Riskid";
                 using (SqlCommand cmd = new SqlCommand(query, con))
                 {
                     cmd.Parameters.AddWithValue("@Riskid", id);
