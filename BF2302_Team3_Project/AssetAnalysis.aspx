@@ -30,7 +30,7 @@
                 <a href="PortfolioPerformance.aspx"><i class="bi bi-arrow-right-circle"></i><span>Portfolio Performance</span></a>
                 <a href="RiskAssessment.aspx"><i class="bi bi-arrow-right-circle"></i><span>Risk Assessment</span></a>
                 <a href="MarketTrends.aspx"><i class="bi bi-arrow-right-circle"></i><span>Market Trends</span></a>
-                <a href="FinancialAssetAnalysis.aspx" class="active"><i class="bi bi-arrow-right-circle"></i><span>Financial Asset Analysis</span></a>
+                <a href="AssetAnalysis.aspx" class="active"><i class="bi bi-arrow-right-circle"></i><span>Financial Asset Analysis</span></a>
               </div>
             </div>
           </div>

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="MarketTrends.aspx.cs" Inherits="BF2302_Team3_Project.MarketTrends" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="MarketTrends.aspx.cs" Inherits="BF2302_Team3_Project.MarketTrends"  Async="true"%>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
        
     <body>
@@ -42,8 +42,8 @@
       <!--<input type="text" id="tickerInput" class="form-control" placeholder="e.g., AAPL, MSFT, TSLA"  -->
       <asp:TextBox id="tickerInput" placeholder="e.g., AAPL, MSFT, TSLA"  CssClass="form-control" runat="server"></asp:TextBox>
          <!-- <button id="fetchTrends" class="btn btn-primary mt-3">Fetch Market Trends</button>-->
-          <asp:Button id="fetchTrends" CssClass="btn btn-primary mt-3" runat="server" Text="fetchTrench" /> 
-      <div id="marketTrendsResult" class="mt-3 p-3 bg-light"></div>
+<asp:Button ID="fetchTrends" CssClass="btn btn-primary mt-3" runat="server" Text="Fetch Trends" OnClick="fetchTrends_Click" />
+      <asp:Literal ID="marketTrendsResult" runat="server"></asp:Literal>
     </div
     </div>
 

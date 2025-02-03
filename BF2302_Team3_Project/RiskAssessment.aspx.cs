@@ -224,7 +224,7 @@ namespace BF2302_Team3_Project
             string riskLevel = (row.FindControl("ddlRiskLevel") as DropDownList).SelectedValue;
             string riskScore = (row.FindControl("txtRiskScore") as TextBox).Text;
 
-            using (SqlConnection con = new SqlConnection(connectionString))
+            using (SqlConnection con = new SqlConnection())
             {
                 string query = "UPDATE Risk_Assessment SET AssetName=@AssetName, RiskScore=@RiskScore, RiskLevel=@RiskLevel WHERE Riskid=@Riskid";
                 using (SqlCommand cmd = new SqlCommand(query, con))
