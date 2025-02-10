@@ -250,6 +250,7 @@
     <Content Include="forms\Readme.txt" />
     <Content Include="forms\index.html" />
     <Content Include="home.aspx" />
+    <Content Include="login.aspx" />
     <Content Include="MarketTrends.aspx" />
     <Content Include="Readme.txt" />
     <Content Include="assets\Scripts\bootstrap.bundle.js" />
@@ -286,6 +287,13 @@
     </Compile>
     <Compile Include="home.aspx.designer.cs">
       <DependentUpon>home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
     </Compile>
     <Compile Include="MarketTrends.aspx.cs">
       <DependentUpon>MarketTrends.aspx</DependentUpon>
